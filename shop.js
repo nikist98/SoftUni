@@ -17,9 +17,9 @@ function shopi(input) {
     }
     sum = sum - sum * 0.10
     if (sum >= price) {
-        console.log(`Yes! ${(sum - price).toFixed(2)} lv left`)
+        console.log(`Yes! ${(sum - price).toFixed(2)} lv left.`)
     } else {
-        console.log(`Not enough money! ${price - sum} lv needed`)
+        console.log(`Not enough money! ${(price - sum).toFixed(2)} lv needed.`)
     }
 }
 shopi(["40.8","20", "25",
